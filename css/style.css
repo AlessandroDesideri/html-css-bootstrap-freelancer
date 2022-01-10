@@ -1,0 +1,74 @@
+/* ---------   utility class --------*/
+
+.bg_green {
+    background-color:rgb(114, 186, 156) ;
+}
+.bg_grey {
+    background-color: rgb(53, 64, 81);
+}
+.bg_lightgrey {
+    background-color: rgb(68, 85, 107);
+}
+
+}
+.text_green {
+    color:rgb(114, 186, 156)
+}
+
+/* --------- / utility class --------*/
+
+/* ---------   jumbotron ----------- */
+
+.jumbotron img {
+    width: 300px;
+}
+
+.starline {
+    width: 100%;
+    font-size: 40px;
+}
+
+.starline .line {
+    display: inline-block;
+    height: 4px;
+    width: 15%;
+    border-radius: 2px;
+    border-bottom: 5px solid;
+    vertical-align: middle;
+    margin: 5px;  
+}
+/* --------- / jumbotron ----------- */
+
+/* ---------   portfolio ----------- */
+
+.portfolio img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 15px;
+}
+/* --------- / portfolio ----------- */
+
+/* ---------   contact -------------- */
+.form_area {
+    padding: 5px 0;
+    width: 100%;
+    border: 0px;
+    border-bottom: grey 1px solid;
+}
+
+.form_area::placeholder {
+    color:black;
+}
+/* --------- / contact -------------- */
+
+/* ---------   footer -------------- */
+
+.social_box {
+    display: inline-block;
+   height: 35px;
+   width: 35px;
+   text-align: center;
+   line-height: 35px;
+   
+}
+/* --------- / footer -------------- */
